@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.6",
+    "node-uuid": "^1.4.2",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {
+    "cors": "^2.7.1"
+  }
+}

@@ -1,0 +1,41 @@
+@import "../../node_modules/bootswatch/bower_components/bootstrap/less/bootstrap";
+@import "../../node_modules/bootswatch/cerulean/variables";
+@import "../../node_modules/bootswatch/cerulean/bootswatch";
+
+.chatapp {
+    overflow: hidden;
+}
+
+.message-list, .thread-list {
+    overflow-y: auto;
+}
+
+.message-list {
+    height: 400px;
+}
+
+.message-list-item {
+    border: none;
+
+    .message-time, .message-author-name {
+        margin-right: 10px;
+    }
+
+    .message-author-name {
+        font-weight: bold;
+        color: @headings-color;
+    }
+}
+
+.thread-list-item.active,
+.thread-list-item:focus,
+.thread-list-item.active:focus,
+.thread-list:hover .thread-list-item.active,
+.thread-list:hover .thread-list-item.active:hover {
+    background-color: @panel-footer-bg;
+    color: @text-color;
+}
+
+.message-composer {
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+{
+  "public":     "./",
+  "js":         {
+    "entry":  "./src/js/main.js",
+    "source": "src/js/**/*.{js,jsx}",
+    "dest":   "dist/js"
+  },
+  "css":        {
+    "main":   "./src/less/main.less",
+    "source": "src/less/**/*.less",
+    "dest":   "dist/css"
+  },
+  "jade":       {
+    "main":   "./src/jade/index.jade",
+    "source": "src/jade/**/*.jade",
+    "dest":   "./"
+  },
+  "deploySite": "http://",
+  "webServer":  {
+    "server": {
+      "livereload": true,
+      "port":       1281,
+      "open":       false,
+      "fallback":   "index.html"
+    }
+  }
+}
