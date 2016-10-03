@@ -2,10 +2,7 @@
   "name": "react-video-chat",
   "description": "React.js video chat client",
   "version": "0.0.1",
-  "author": "Magora Systems",
-  "bugs": {
-    "url": "https://github.com/Magora-Systems-Frontend/react-video-chat/issues"
-  },
+  "author": "Leonardo Thomas",
   "dependencies": {
     "express": "^4.13.0",
     "http-proxy": "^1.11.1"
